@@ -33,6 +33,8 @@ xmean = np.mean(x)
 ymean = np.mean(y)
 num=0
 den=0
+```
+```
 for i in range(len(x)):
     num+=(x[i]-xmean)*(y[i]-ymean)
     den+=(x[i]-xmean)**2
@@ -48,8 +50,6 @@ plt.show()
 
 ## Output:
 ![image](https://github.com/Aadithya2201/Find-the-best-fit-line-using-Least-Squares-Method/assets/145917810/3bd2bbbd-d1b0-4487-993e-e9f267002a87)
-
-
 
 ## Result:
 Thus the univariate Linear Regression was implemented to fit a straight line using least squares using python programming.
