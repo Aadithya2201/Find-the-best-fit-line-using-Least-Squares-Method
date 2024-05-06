@@ -29,10 +29,11 @@ X=np.array(eval(input()))
 Y=np.array(eval(input()))
 X_mean=np.mean(X)
 Y_mean=np.mean(Y)
+```
+```
 num=0
 denom=0
-```
-```
+
 for i in range(len(X)):
     num+=(X[i]-X_mean)*(Y[i]-Y_mean)
     denom+=(X[i]-X_mean)**2
